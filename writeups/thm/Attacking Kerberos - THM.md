@@ -44,7 +44,7 @@ Kerberos uses differents kinds of messages. The most interesting are the followi
 > **NOTE**: Additionally, even if it is not part of Kerberos, but NRPC, the **AP** optionally could use the `KERB_VERIFY_PAC_REQUEST` message to send to **KDC** the signature of **PAC**, and verify if it is correc
 
 Summary of msgs sequency to perform auth:
-![[Pasted image 20220619113911.png]]
+![[static/Pasted image 20220619113911.png]]
 
 ### Kerberos Authentication Overview
 ![[Pasted image 20220619072424.png]]
