@@ -6,7 +6,7 @@ url: https://ethernaut.openzeppelin.com/level/0x5732B2F88cbd19B6f01E3a96e9f0D90B
 # 2. Fallout
 
 
-![[writeups/ethernaut/fallout/contract.png]]
+![](writeups/ethernaut/fallout/contract.png)
 
 -   notice that the constructor of the smart contract is misspelled: `Fal1out()` => made available as a public function
 -   can be also seen in ABI: `console.table(contract.abi)`

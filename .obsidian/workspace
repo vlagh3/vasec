@@ -7,8 +7,11 @@
         "id": "211791f55956e67f",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "writeups/ethernaut/fallback/fallback.md",
+            "mode": "preview"
+          }
         }
       }
     ],
@@ -74,6 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "writeups/ethernaut/fallback/fallback.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -90,6 +94,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "writeups/ethernaut/fallback/fallback.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -153,15 +158,15 @@
   },
   "active": "211791f55956e67f",
   "lastOpenFiles": [
+    "writeups/ethernaut/fallback/fallback.md",
+    "writeups/ethernaut/fallback/contract.png",
+    "writeups/ethernaut/coinflip/coinflip.md",
+    "writeups/ethernaut/fallout/fallout.md",
     "writeups/htb/craft/craft.md",
     "writeups/htb/obscurity/obscurity.md",
     "writeups/htb/time/time.md",
-    "writeups/ethernaut/coinflip/coinflip.md",
     "writeups/ethernaut/telephone/telephone.md",
     "writeups/ethernaut/hello_eternaut/hello_ethernaut.md",
-    "writeups/ethernaut/fallout/fallout.md",
-    "writeups/ethernaut/fallback/fallback.md",
-    "writeups/ethernaut/fallout/contract.png",
-    "_templates/ref.md"
+    "writeups/ethernaut/fallout/contract.png"
   ]
 }
