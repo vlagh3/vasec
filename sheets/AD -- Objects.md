@@ -4,10 +4,6 @@ tags: ⚡
 
 # AD -- Objects
 
-Knowledge_Topic:: [[Windows]] | [[Active Directory]]
-
----
-
 Objects are part of the logical structure of AD. Their main purpose is to help the sys-admin with the management of network resources. For this, the AD allows the admin to register resources in the form of **directory objects**.
 
 Each object type/class corresponds to an administered resource type:
@@ -29,4 +25,5 @@ Every object is an instance of a [class](https://docs.microsoft.com/en-us/previo
 
 
 ## See Also
+[[Windows]] | [[Active Directory]]
 
