@@ -4,7 +4,7 @@ url: []()
 topic: 
 ---
 
-# <% tp.file.name %>
+# <% tp.file.filename %>
 
 ## Notes
 > **Summary:** 1-2 sentence overview

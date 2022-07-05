@@ -1,5 +1,5 @@
 ---
-tag:  🥷
+tag:  ⚡
 ---
 
 # <% tp.file.name %>
