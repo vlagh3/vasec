@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "56d8daea41b4d7d3",
+        "id": "211791f55956e67f",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "sheets/Access Control Burp.md",
+            "file": "writeups/htb/time/README.md",
             "mode": "preview"
           }
         }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sheets/Access Control Burp.md",
+                "file": "writeups/htb/time/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "sheets/Access Control Burp.md",
+                "file": "writeups/htb/time/README.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -156,17 +156,17 @@
     "direction": "horizontal",
     "width": 477.5
   },
-  "active": "56d8daea41b4d7d3",
+  "active": "211791f55956e67f",
   "lastOpenFiles": [
-    "sheets/Access Control Burp.md",
-    "refs/OWASP API Security Top 10.md",
-    "refs/Lack of Resources & Rate Limiting -- OWASP API.md",
-    "refs/Excessive Data Exposure -- OWASP API.md",
-    "refs/Broken Object Level Authorization.md",
-    "refs/Broken User Authentication -- OWASP API.md",
-    "_templates/ref.md",
+    "writeups/htb/time/README.md",
+    "writeups/htb/obscurity/README.md",
+    "writeups/htb/mango/README.md",
+    "writeups/htb/craft/README.md",
     "_templates/meta.md",
-    "notes/os command injection.md",
-    "notes/file path traversal.md"
+    "_templates/ref.md",
+    "writeups/ethernaut/telephone/README.md",
+    "writeups/ethernaut/coinflip/README.md",
+    "sheets/Access Control Burp.md",
+    "refs/OWASP API Security Top 10.md"
   ]
 }
