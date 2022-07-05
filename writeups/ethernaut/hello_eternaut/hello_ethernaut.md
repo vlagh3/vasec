@@ -76,4 +76,6 @@ await contract.authenticate("ethernaut0")
 - all functions & variables stored on the blockchain are viewable by the public
 - Thus, never store sensitive data *(i.e password)* directly inside a smart contract *(not even as `private` vars even)*
 
-
+## See Also
+[[Ethernaut Wargame]]
+[[Blockchain]]

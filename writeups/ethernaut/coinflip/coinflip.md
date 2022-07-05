@@ -120,3 +120,7 @@ The only thing left to be done is to spam the `cheat()` function
 - **Mitigation**
 	- to get cryptographically proven random numbers, you can use [Chainlink VRF](https://docs.chain.link/docs/get-a-random-number), which uses an oracle, the LINK token, and an on-chain contract to verify that the number is truly random.
 	- other options include using Bitcoin block headers *(verified through [BTC Relay](http://btcrelay.org/))*, [RANDAO](https://github.com/randao/randao), or [Oraclize](http://www.oraclize.it/)).
+
+## See Also
+[[Ethernaut Wargame]]
+[[Blockchain]]

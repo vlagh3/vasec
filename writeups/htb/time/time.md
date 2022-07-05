@@ -179,3 +179,6 @@ If you want to dig deeper into deserealization attacks within java libraries, I 
 - [Jackson Library](https://github.com/FasterXML/jackson)
 - [Marshalling Pickles - OWASP AppSec California 2015](https://www.youtube.com/watch?v=KSA7vUkXGSg)
 - [CVE-2019-12384](https://blog.doyensec.com/2019/07/22/jackson-gadgets.html)
+
+## See Also
+[[HTB]]
