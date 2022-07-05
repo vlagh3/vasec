@@ -1,0 +1,12 @@
+{
+  "baseFontSize": 30,
+  "cssTheme": "Minimal",
+  "baseFontSizeAction": true,
+  "enabledCssSnippets": [
+    "my_font",
+    "table",
+    "uwu_theme"
+  ],
+  "translucency": false,
+  "theme": "obsidian"
+}

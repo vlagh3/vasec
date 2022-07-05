@@ -1,0 +1,42 @@
+.theme-dark {
+  --background-primary: #131a1c;
+  --background-primary-alt: #232a2c;
+  --background-secondary: #131a1c;
+  --background-secondary-alt: #232a2c;
+  --background-tertiary: #232a2c;
+  --background-modifier-border: #232a2c;
+  --background-modifier-form-field: #232a2c;
+  --background-button: #232a2c;
+
+  --text-normal: #c5c8c9;
+  --text-muted: #6cbad1;
+  --text-faint: #f65b5b;
+
+  --text-accent: #53a7bf;
+  --text-accent-hover: #6cbad1;
+
+  --text-selection: #232a2c;
+  --text-highlight-bg: #e7ac7e;
+  --text-highlight-bg-active: #131a1c;
+
+  --code-color: #e59e67;
+}
+
+:root {
+
+  --yellow:#e59e67;
+  --green:#6bb05d;
+  --orange:#e7ac7e;
+  --purple:#b185db;
+  --pink:#bb8fe5;
+  --blue:#53a7bf;
+  
+  --h1-color: #e59e67;
+  --h1: 32px;
+
+  --h2-color: #6bb05d;
+  --h2: 24px;
+
+  --h3-color: #f65b5b;
+}
+

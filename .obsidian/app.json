@@ -1,0 +1,15 @@
+{
+  "foldHeading": true,
+  "foldIndent": true,
+  "vimMode": true,
+  "trashOption": "none",
+  "alwaysUpdateLinks": true,
+  "smartIndentList": true,
+  "lineWrap": true,
+  "showLineNumber": true,
+  "readableLineLength": false,
+  "strictLineBreaks": false,
+  "legacyEditor": true,
+  "livePreview": true,
+  "promptDelete": false
+}

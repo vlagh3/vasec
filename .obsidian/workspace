@@ -1,0 +1,172 @@
+{
+  "main": {
+    "id": "4722321b41f3f2dd",
+    "type": "split",
+    "children": [
+      {
+        "id": "56d8daea41b4d7d3",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "sheets/Access Control Burp.md",
+            "mode": "preview"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "32287d8dd486dea1",
+    "type": "split",
+    "children": [
+      {
+        "id": "13ab718b47d1118b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "72290b2e4c73a098",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "ba1f0bae2bffd196",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "1676744378691c52",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 263.99999809265137
+  },
+  "right": {
+    "id": "6ab9153450030bf1",
+    "type": "split",
+    "children": [
+      {
+        "id": "99176b618692a698",
+        "type": "tabs",
+        "dimension": 57.65765765765766,
+        "children": [
+          {
+            "id": "9435fdda80e23101",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "sheets/Access Control Burp.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "a15de166e0349ca8",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "sheets/Access Control Burp.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": true,
+                  "textFadeMultiplier": -0.7,
+                  "nodeSizeMultiplier": 1.41923076923077,
+                  "lineSizeMultiplier": 1.2517094017094,
+                  "collapse-forces": true,
+                  "centerStrength": 0.453296703296703,
+                  "repelStrength": 15,
+                  "linkStrength": 0.826923076923077,
+                  "linkDistance": 184,
+                  "scale": 0.4084433249421898,
+                  "close": false
+                }
+              }
+            }
+          },
+          {
+            "id": "2aadeef811991dd7",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "7314d7382d2e68b8",
+        "type": "tabs",
+        "dimension": 42.34234234234234,
+        "children": [
+          {
+            "id": "c6ee55d00a29f708",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 477.5
+  },
+  "active": "56d8daea41b4d7d3",
+  "lastOpenFiles": [
+    "sheets/Access Control Burp.md",
+    "refs/OWASP API Security Top 10.md",
+    "refs/Lack of Resources & Rate Limiting -- OWASP API.md",
+    "refs/Excessive Data Exposure -- OWASP API.md",
+    "refs/Broken Object Level Authorization.md",
+    "refs/Broken User Authentication -- OWASP API.md",
+    "_templates/ref.md",
+    "_templates/meta.md",
+    "notes/os command injection.md",
+    "notes/file path traversal.md"
+  ]
+}
