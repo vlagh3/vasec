@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "writeups/ethernaut/fallback/fallback.md",
+            "file": "writeups/ethernaut/fallout/fallout.md",
             "mode": "preview"
           }
         }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "writeups/ethernaut/fallback/fallback.md",
+                "file": "writeups/ethernaut/fallout/fallout.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "writeups/ethernaut/fallback/fallback.md",
+                "file": "writeups/ethernaut/fallout/fallout.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -158,10 +158,10 @@
   },
   "active": "211791f55956e67f",
   "lastOpenFiles": [
+    "writeups/ethernaut/fallout/fallout.md",
+    "writeups/ethernaut/coinflip/coinflip.md",
     "writeups/ethernaut/fallback/fallback.md",
     "writeups/ethernaut/fallback/contract.png",
-    "writeups/ethernaut/coinflip/coinflip.md",
-    "writeups/ethernaut/fallout/fallout.md",
     "writeups/htb/craft/craft.md",
     "writeups/htb/obscurity/obscurity.md",
     "writeups/htb/time/time.md",

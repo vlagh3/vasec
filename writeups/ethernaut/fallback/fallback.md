@@ -4,7 +4,7 @@ url: https://ethernaut.openzeppelin.com/level/0x9CB391dbcD447E645D6Cb55dE6ca2316
 ---
 
 # 1. Fallback
-![](writeups/ethernaut/fallback/contract.png)
+![](./contract.png)
 
 ## What is a fallback function?
 -   [Special functions solidity](https://docs.soliditylang.org/en/latest/contracts.html#special-functions)
